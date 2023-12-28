@@ -16,7 +16,7 @@ jobs:
     - name: Download ISO
       run: |
         mkdir -p iso
-        wget https://ia903404.us.archive.org/31/items/nexus.-lite-os.-8.1.x-64/Nexus.LiteOS.8.1.x64.iso -O iso/Nexus.LiteOS.8.1.x64.iso
+        wget https://github.com/IsaacFil/linxsios/actions/runs/7339384436/artifacts/1136641464
 
     - name: Create artifact
       uses: actions/upload-artifact@v2
